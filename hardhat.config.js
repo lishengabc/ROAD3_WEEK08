@@ -17,7 +17,6 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
-
 /**
  * 切记私钥不要上传到仓库 切记 切记
  */
@@ -27,7 +26,7 @@ module.exports = {
   networks: {
     
     "optimism": {
-       url: "https://opt-mainnet.g.alchemy.com/v2/3Y3e2aBlQyEOxmVqGlwHyVYDoJNpZVgX",
+       url: "",
        accounts: [""]
     }
   }
